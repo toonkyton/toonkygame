@@ -1,0 +1,6 @@
+[build]
+  publish = "public" # Bu satır, build çıktı dosyalarının konumunu belirtir, proje yapısına göre güncellenebilir
+  command = "npm run build" # Bu satır, build komutunu belirtir
+
+[context.production]
+  branch = "main" # Bu satır, ana branch'in adını belirtir
